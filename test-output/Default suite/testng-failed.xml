@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="FreeTestAutomation.FreeTest.FreeCRMTest">
+      <class name="com.qa.test.LoginPageTest">
         <methods>
-          <include name="setUp"/>
           <include name="loginPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="loginTest"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- FreeTestAutomation.FreeTest.FreeCRMTest -->
+      </class> <!-- com.qa.test.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

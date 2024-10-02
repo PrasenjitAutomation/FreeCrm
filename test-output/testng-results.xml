@@ -1,25 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-26T13:47:20 AEST" name="Suite" finished-at="2024-09-26T13:47:52 AEST" duration-ms="31851">
+  <suite started-at="2024-10-02T11:11:39 AEST" name="Suite" finished-at="2024-10-02T11:12:54 AEST" duration-ms="75391">
     <groups>
     </groups>
-    <test started-at="2024-09-26T13:47:20 AEST" name="Test" finished-at="2024-09-26T13:47:52 AEST" duration-ms="31851">
-      <class name="FreeTestAutomation.FreeTest.FreeCRMTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:FreeTestAutomation.FreeTest.FreeCRMTest@74f0ea28]" started-at="2024-09-26T13:47:20 AEST" name="setUp" finished-at="2024-09-26T13:47:29 AEST" duration-ms="8821" status="PASS">
+    <test started-at="2024-10-02T11:11:39 AEST" name="Test" finished-at="2024-10-02T11:12:54 AEST" duration-ms="75391">
+      <class name="com.qa.test.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.test.LoginPageTest@175c2241]" started-at="2024-10-02T11:11:40 AEST" name="setUp" finished-at="2024-10-02T11:11:47 AEST" duration-ms="7016" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="SydneyUniversityTest()[pri:0, instance:FreeTestAutomation.FreeTest.FreeCRMTest@74f0ea28]" started-at="2024-09-26T13:47:29 AEST" name="SydneyUniversityTest" finished-at="2024-09-26T13:47:49 AEST" duration-ms="20121" status="PASS">
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.qa.test.LoginPageTest@175c2241]" started-at="2024-10-02T11:11:47 AEST" name="loginPageTitleTest" finished-at="2024-10-02T11:11:47 AEST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.LoginPageTest@175c2241]" started-at="2024-10-02T11:11:47 AEST" name="tearDown" finished-at="2024-10-02T11:11:47 AEST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.test.LoginPageTest@175c2241]" started-at="2024-10-02T11:11:47 AEST" name="setUp" finished-at="2024-10-02T11:11:53 AEST" duration-ms="5866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:2, instance:com.qa.test.LoginPageTest@175c2241]" started-at="2024-10-02T11:11:53 AEST" name="loginTest" finished-at="2024-10-02T11:11:54 AEST" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.LoginPageTest@175c2241]" started-at="2024-10-02T11:11:54 AEST" name="tearDown" finished-at="2024-10-02T11:11:54 AEST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.test.LoginPageTest -->
+      <class name="FreeTestAutomation.FreeTest.FreeCRMTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:FreeTestAutomation.FreeTest.FreeCRMTest@229f66ed]" started-at="2024-10-02T11:12:18 AEST" name="setUp" finished-at="2024-10-02T11:12:24 AEST" duration-ms="6013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SydneyUniversityTest()[pri:0, instance:FreeTestAutomation.FreeTest.FreeCRMTest@229f66ed]" started-at="2024-10-02T11:12:24 AEST" name="SydneyUniversityTest" finished-at="2024-10-02T11:12:54 AEST" duration-ms="29744" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SydneyUniversityTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FreeTestAutomation.FreeTest.FreeCRMTest@74f0ea28]" started-at="2024-09-26T13:47:49 AEST" name="tearDown" finished-at="2024-09-26T13:47:52 AEST" duration-ms="2850" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FreeTestAutomation.FreeTest.FreeCRMTest@229f66ed]" started-at="2024-10-02T11:12:54 AEST" name="tearDown" finished-at="2024-10-02T11:12:54 AEST" duration-ms="325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- FreeTestAutomation.FreeTest.FreeCRMTest -->
+      <class name="DataDriven.DataTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:DataDriven.DataTest@7dcf94f8]" started-at="2024-10-02T11:11:57 AEST" name="setUp" finished-at="2024-10-02T11:12:02 AEST" duration-ms="5633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DataDrivenTest(java.lang.String,java.lang.String)[pri:0, instance:DataDriven.DataTest@7dcf94f8]" started-at="2024-10-02T11:12:02 AEST" name="DataDrivenTest" data-provider="getCRMTestData" finished-at="2024-10-02T11:12:04 AEST" duration-ms="1952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DataDriven.DataTest@7dcf94f8]" started-at="2024-10-02T11:12:04 AEST" name="tearDown" finished-at="2024-10-02T11:12:05 AEST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:DataDriven.DataTest@7dcf94f8]" started-at="2024-10-02T11:12:05 AEST" name="setUp" finished-at="2024-10-02T11:12:09 AEST" duration-ms="4560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DataDrivenTest(java.lang.String,java.lang.String)[pri:0, instance:DataDriven.DataTest@7dcf94f8]" started-at="2024-10-02T11:12:09 AEST" name="DataDrivenTest" data-provider="getCRMTestData" finished-at="2024-10-02T11:12:11 AEST" duration-ms="1856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DataDriven.DataTest@7dcf94f8]" started-at="2024-10-02T11:12:11 AEST" name="tearDown" finished-at="2024-10-02T11:12:11 AEST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:DataDriven.DataTest@7dcf94f8]" started-at="2024-10-02T11:12:11 AEST" name="setUp" finished-at="2024-10-02T11:12:16 AEST" duration-ms="4983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DataDrivenTest(java.lang.String,java.lang.String)[pri:0, instance:DataDriven.DataTest@7dcf94f8]" started-at="2024-10-02T11:12:16 AEST" name="DataDrivenTest" data-provider="getCRMTestData" finished-at="2024-10-02T11:12:18 AEST" duration-ms="1192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DataDriven.DataTest@7dcf94f8]" started-at="2024-10-02T11:12:18 AEST" name="tearDown" finished-at="2024-10-02T11:12:18 AEST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DataDriven.DataTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
