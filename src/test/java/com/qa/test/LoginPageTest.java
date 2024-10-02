@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import com.qa.base.TestBase;
 import com.qa.pages.LoginPage;
+import com.qa.util.TestUtil;
 
 public class LoginPageTest extends TestBase{
 	LoginPage loginPage;
@@ -32,18 +33,18 @@ public class LoginPageTest extends TestBase{
 	public void loginTest(){
 				
 		loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+		try {
+			TestUtil.takeScreenshotAtEndOfTest();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 	}
-	
-	
 	
 	@AfterMethod
 	public void tearDown(){
 		driver.quit();
 	}
 	
-	
-	
-	
-
 }

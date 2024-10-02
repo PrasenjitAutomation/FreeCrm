@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="DataDriven.DataTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="DataDrivenTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- DataDriven.DataTest -->
       <class name="com.qa.test.LoginPageTest">
         <methods>
-          <include name="loginPageTitleTest"/>
           <include name="setUp"/>
           <include name="loginTest"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.test.LoginPageTest -->
-      <class name="FreeTestAutomation.FreeTest.FreeCRMTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="SydneyUniversityTest"/>
-        </methods>
-      </class> <!-- FreeTestAutomation.FreeTest.FreeCRMTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
